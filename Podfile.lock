@@ -1,0 +1,20 @@
+PODS:
+  - CropViewController (2.7.3)
+  - OpenCV (4.3.0)
+
+DEPENDENCIES:
+  - CropViewController
+  - OpenCV (= 4.3.0)
+
+SPEC REPOS:
+  trunk:
+    - CropViewController
+    - OpenCV
+
+SPEC CHECKSUMS:
+  CropViewController: 4af40cbc5787fb56fbca9efe00d27ab45562f3f0
+  OpenCV: 681e0451c1e54c5930a8922277f817ed5d5ab459
+
+PODFILE CHECKSUM: a9f559f7f2e985b646d42785013162b1c1a9b4ad
+
+COCOAPODS: 1.15.2

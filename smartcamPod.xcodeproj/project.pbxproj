@@ -8,13 +8,55 @@
 
 /* Begin PBXBuildFile section */
 		2DDEC2992BDB9D3100726E25 /* smartcamPod.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DDEC2982BDB9D3100726E25 /* smartcamPod.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2DDEC2A02BDB9D9A00726E25 /* MyClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DDEC29F2BDB9D9A00726E25 /* MyClass.swift */; };
+		2DDEC2C82BDBDC9F00726E25 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DDEC2A82BDBDC9F00726E25 /* Assets.xcassets */; };
+		2DDEC2C92BDBDC9F00726E25 /* UIImage + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DDEC2AA2BDBDC9F00726E25 /* UIImage + Extension.swift */; };
+		2DDEC2CA2BDBDC9F00726E25 /* CGImage + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DDEC2AB2BDBDC9F00726E25 /* CGImage + Extension.swift */; };
+		2DDEC2CB2BDBDC9F00726E25 /* String + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DDEC2AC2BDBDC9F00726E25 /* String + Extension.swift */; };
+		2DDEC2CD2BDBDC9F00726E25 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DDEC2AF2BDBDC9F00726E25 /* CameraViewController.swift */; };
+		2DDEC2D22BDBDC9F00726E25 /* LastPhotoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DDEC2B62BDBDC9F00726E25 /* LastPhotoView.swift */; };
+		2DDEC2D32BDBDC9F00726E25 /* TopBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DDEC2B72BDBDC9F00726E25 /* TopBarView.swift */; };
+		2DDEC2D42BDBDC9F00726E25 /* CaptureImageButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DDEC2B82BDBDC9F00726E25 /* CaptureImageButton.swift */; };
+		2DDEC2D52BDBDC9F00726E25 /* BottomBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DDEC2B92BDBDC9F00726E25 /* BottomBarView.swift */; };
+		2DDEC2D62BDBDC9F00726E25 /* CameraService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DDEC2BB2BDBDC9F00726E25 /* CameraService.swift */; };
+		2DDEC2D72BDBDC9F00726E25 /* stitching.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2DDEC2BD2BDBDC9F00726E25 /* stitching.cpp */; };
+		2DDEC2D82BDBDC9F00726E25 /* SwViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DDEC2BE2BDBDC9F00726E25 /* SwViewController.swift */; };
+		2DDEC2D92BDBDC9F00726E25 /* UIImage+Rotate.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DDEC2BF2BDBDC9F00726E25 /* UIImage+Rotate.h */; };
+		2DDEC2DA2BDBDC9F00726E25 /* SmartCamMasterApp-Bridging-Header.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DDEC2C02BDBDC9F00726E25 /* SmartCamMasterApp-Bridging-Header.h */; };
+		2DDEC2DB2BDBDC9F00726E25 /* UIImage+OpenCV.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DDEC2C12BDBDC9F00726E25 /* UIImage+OpenCV.h */; };
+		2DDEC2DC2BDBDC9F00726E25 /* CVWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DDEC2C22BDBDC9F00726E25 /* CVWrapper.h */; };
+		2DDEC2DD2BDBDC9F00726E25 /* UIImage+OpenCV.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2DDEC2C32BDBDC9F00726E25 /* UIImage+OpenCV.mm */; };
+		2DDEC2DE2BDBDC9F00726E25 /* UIImage+Rotate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DDEC2C42BDBDC9F00726E25 /* UIImage+Rotate.m */; };
+		2DDEC2DF2BDBDC9F00726E25 /* stitching.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DDEC2C52BDBDC9F00726E25 /* stitching.h */; };
+		2DDEC2E02BDBDC9F00726E25 /* CVWrapper.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2DDEC2C62BDBDC9F00726E25 /* CVWrapper.mm */; };
+		A0416590BBDDB183F494FEB4 /* Pods_smartcamPod.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A41446496CDB1E1FA7F8B7E9 /* Pods_smartcamPod.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		19335C405D62498B194E26F4 /* Pods-smartcamPod.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-smartcamPod.debug.xcconfig"; path = "Target Support Files/Pods-smartcamPod/Pods-smartcamPod.debug.xcconfig"; sourceTree = "<group>"; };
 		2DDEC2952BDB9D3100726E25 /* smartcamPod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = smartcamPod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DDEC2982BDB9D3100726E25 /* smartcamPod.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = smartcamPod.h; sourceTree = "<group>"; };
-		2DDEC29F2BDB9D9A00726E25 /* MyClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyClass.swift; sourceTree = "<group>"; };
+		2DDEC2A82BDBDC9F00726E25 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2DDEC2AA2BDBDC9F00726E25 /* UIImage + Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage + Extension.swift"; sourceTree = "<group>"; };
+		2DDEC2AB2BDBDC9F00726E25 /* CGImage + Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGImage + Extension.swift"; sourceTree = "<group>"; };
+		2DDEC2AC2BDBDC9F00726E25 /* String + Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String + Extension.swift"; sourceTree = "<group>"; };
+		2DDEC2AF2BDBDC9F00726E25 /* CameraViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		2DDEC2B62BDBDC9F00726E25 /* LastPhotoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LastPhotoView.swift; sourceTree = "<group>"; };
+		2DDEC2B72BDBDC9F00726E25 /* TopBarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopBarView.swift; sourceTree = "<group>"; };
+		2DDEC2B82BDBDC9F00726E25 /* CaptureImageButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CaptureImageButton.swift; sourceTree = "<group>"; };
+		2DDEC2B92BDBDC9F00726E25 /* BottomBarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BottomBarView.swift; sourceTree = "<group>"; };
+		2DDEC2BB2BDBDC9F00726E25 /* CameraService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraService.swift; sourceTree = "<group>"; };
+		2DDEC2BD2BDBDC9F00726E25 /* stitching.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = stitching.cpp; sourceTree = "<group>"; };
+		2DDEC2BE2BDBDC9F00726E25 /* SwViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwViewController.swift; sourceTree = "<group>"; };
+		2DDEC2BF2BDBDC9F00726E25 /* UIImage+Rotate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Rotate.h"; sourceTree = "<group>"; };
+		2DDEC2C02BDBDC9F00726E25 /* SmartCamMasterApp-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SmartCamMasterApp-Bridging-Header.h"; sourceTree = "<group>"; };
+		2DDEC2C12BDBDC9F00726E25 /* UIImage+OpenCV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+OpenCV.h"; sourceTree = "<group>"; };
+		2DDEC2C22BDBDC9F00726E25 /* CVWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CVWrapper.h; sourceTree = "<group>"; };
+		2DDEC2C32BDBDC9F00726E25 /* UIImage+OpenCV.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "UIImage+OpenCV.mm"; sourceTree = "<group>"; };
+		2DDEC2C42BDBDC9F00726E25 /* UIImage+Rotate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Rotate.m"; sourceTree = "<group>"; };
+		2DDEC2C52BDBDC9F00726E25 /* stitching.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stitching.h; sourceTree = "<group>"; };
+		2DDEC2C62BDBDC9F00726E25 /* CVWrapper.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CVWrapper.mm; sourceTree = "<group>"; };
+		52ECAD25B77645AA91BAB1D4 /* Pods-smartcamPod.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-smartcamPod.release.xcconfig"; path = "Target Support Files/Pods-smartcamPod/Pods-smartcamPod.release.xcconfig"; sourceTree = "<group>"; };
+		A41446496CDB1E1FA7F8B7E9 /* Pods_smartcamPod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_smartcamPod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -22,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0416590BBDDB183F494FEB4 /* Pods_smartcamPod.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -33,6 +76,8 @@
 			children = (
 				2DDEC2972BDB9D3100726E25 /* Sources */,
 				2DDEC2962BDB9D3100726E25 /* Products */,
+				805CE9D284E204A0D3371675 /* Pods */,
+				933FBB1907A247FFC93AFC0F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -47,10 +92,102 @@
 		2DDEC2972BDB9D3100726E25 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				2DDEC29F2BDB9D9A00726E25 /* MyClass.swift */,
+				2DDEC2BC2BDBDC9F00726E25 /* OpenCV */,
+				2DDEC2A22BDBDC9F00726E25 /* SmartCamMasterApp */,
 				2DDEC2982BDB9D3100726E25 /* smartcamPod.h */,
 			);
 			path = Sources;
+			sourceTree = "<group>";
+		};
+		2DDEC2A22BDBDC9F00726E25 /* SmartCamMasterApp */ = {
+			isa = PBXGroup;
+			children = (
+				2DDEC2A72BDBDC9F00726E25 /* Resources */,
+				2DDEC2A92BDBDC9F00726E25 /* Extensions */,
+				2DDEC2AD2BDBDC9F00726E25 /* ViewControllers */,
+				2DDEC2B52BDBDC9F00726E25 /* Views */,
+				2DDEC2BA2BDBDC9F00726E25 /* Services */,
+			);
+			path = SmartCamMasterApp;
+			sourceTree = "<group>";
+		};
+		2DDEC2A72BDBDC9F00726E25 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2DDEC2A82BDBDC9F00726E25 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		2DDEC2A92BDBDC9F00726E25 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				2DDEC2AA2BDBDC9F00726E25 /* UIImage + Extension.swift */,
+				2DDEC2AB2BDBDC9F00726E25 /* CGImage + Extension.swift */,
+				2DDEC2AC2BDBDC9F00726E25 /* String + Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		2DDEC2AD2BDBDC9F00726E25 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				2DDEC2AF2BDBDC9F00726E25 /* CameraViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		2DDEC2B52BDBDC9F00726E25 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2DDEC2B62BDBDC9F00726E25 /* LastPhotoView.swift */,
+				2DDEC2B72BDBDC9F00726E25 /* TopBarView.swift */,
+				2DDEC2B82BDBDC9F00726E25 /* CaptureImageButton.swift */,
+				2DDEC2B92BDBDC9F00726E25 /* BottomBarView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2DDEC2BA2BDBDC9F00726E25 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				2DDEC2BB2BDBDC9F00726E25 /* CameraService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		2DDEC2BC2BDBDC9F00726E25 /* OpenCV */ = {
+			isa = PBXGroup;
+			children = (
+				2DDEC2BD2BDBDC9F00726E25 /* stitching.cpp */,
+				2DDEC2BE2BDBDC9F00726E25 /* SwViewController.swift */,
+				2DDEC2BF2BDBDC9F00726E25 /* UIImage+Rotate.h */,
+				2DDEC2C02BDBDC9F00726E25 /* SmartCamMasterApp-Bridging-Header.h */,
+				2DDEC2C12BDBDC9F00726E25 /* UIImage+OpenCV.h */,
+				2DDEC2C22BDBDC9F00726E25 /* CVWrapper.h */,
+				2DDEC2C32BDBDC9F00726E25 /* UIImage+OpenCV.mm */,
+				2DDEC2C42BDBDC9F00726E25 /* UIImage+Rotate.m */,
+				2DDEC2C52BDBDC9F00726E25 /* stitching.h */,
+				2DDEC2C62BDBDC9F00726E25 /* CVWrapper.mm */,
+			);
+			path = OpenCV;
+			sourceTree = "<group>";
+		};
+		805CE9D284E204A0D3371675 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				19335C405D62498B194E26F4 /* Pods-smartcamPod.debug.xcconfig */,
+				52ECAD25B77645AA91BAB1D4 /* Pods-smartcamPod.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		933FBB1907A247FFC93AFC0F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A41446496CDB1E1FA7F8B7E9 /* Pods_smartcamPod.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -60,7 +197,12 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2DDEC2DA2BDBDC9F00726E25 /* SmartCamMasterApp-Bridging-Header.h in Headers */,
+				2DDEC2DB2BDBDC9F00726E25 /* UIImage+OpenCV.h in Headers */,
+				2DDEC2DC2BDBDC9F00726E25 /* CVWrapper.h in Headers */,
 				2DDEC2992BDB9D3100726E25 /* smartcamPod.h in Headers */,
+				2DDEC2DF2BDBDC9F00726E25 /* stitching.h in Headers */,
+				2DDEC2D92BDBDC9F00726E25 /* UIImage+Rotate.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,6 +213,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2DDEC29C2BDB9D3100726E25 /* Build configuration list for PBXNativeTarget "smartcamPod" */;
 			buildPhases = (
+				57F046B17D8D9D86F79E987A /* [CP] Check Pods Manifest.lock */,
 				2DDEC2902BDB9D3100726E25 /* Headers */,
 				2DDEC2912BDB9D3100726E25 /* Sources */,
 				2DDEC2922BDB9D3100726E25 /* Frameworks */,
@@ -107,6 +250,7 @@
 			knownRegions = (
 				en,
 				Base,
+				ru,
 			);
 			mainGroup = 2DDEC28B2BDB9D3100726E25;
 			productRefGroup = 2DDEC2962BDB9D3100726E25 /* Products */;
@@ -123,17 +267,56 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2DDEC2C82BDBDC9F00726E25 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		57F046B17D8D9D86F79E987A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-smartcamPod-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		2DDEC2912BDB9D3100726E25 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2DDEC2A02BDB9D9A00726E25 /* MyClass.swift in Sources */,
+				2DDEC2D42BDBDC9F00726E25 /* CaptureImageButton.swift in Sources */,
+				2DDEC2D82BDBDC9F00726E25 /* SwViewController.swift in Sources */,
+				2DDEC2D32BDBDC9F00726E25 /* TopBarView.swift in Sources */,
+				2DDEC2DD2BDBDC9F00726E25 /* UIImage+OpenCV.mm in Sources */,
+				2DDEC2D72BDBDC9F00726E25 /* stitching.cpp in Sources */,
+				2DDEC2DE2BDBDC9F00726E25 /* UIImage+Rotate.m in Sources */,
+				2DDEC2D52BDBDC9F00726E25 /* BottomBarView.swift in Sources */,
+				2DDEC2C92BDBDC9F00726E25 /* UIImage + Extension.swift in Sources */,
+				2DDEC2CD2BDBDC9F00726E25 /* CameraViewController.swift in Sources */,
+				2DDEC2CA2BDBDC9F00726E25 /* CGImage + Extension.swift in Sources */,
+				2DDEC2D62BDBDC9F00726E25 /* CameraService.swift in Sources */,
+				2DDEC2CB2BDBDC9F00726E25 /* String + Extension.swift in Sources */,
+				2DDEC2D22BDBDC9F00726E25 /* LastPhotoView.swift in Sources */,
+				2DDEC2E02BDBDC9F00726E25 /* CVWrapper.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,6 +450,7 @@
 		};
 		2DDEC29D2BDB9D3100726E25 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19335C405D62498B194E26F4 /* Pods-smartcamPod.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -304,6 +488,7 @@
 		};
 		2DDEC29E2BDB9D3100726E25 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52ECAD25B77645AA91BAB1D4 /* Pods-smartcamPod.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
