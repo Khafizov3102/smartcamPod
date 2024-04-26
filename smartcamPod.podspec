@@ -7,11 +7,11 @@ Pod::Spec.new do |s|
   s.authors = { 'Denis Khafizov' => 'khafizov.den@yandex.ru' }
   
   s.source = { :git => 'https://github.com/Khafizov3102/smartcamPod.git', :tag => s.version.to_s }
-  s.source_files = 'Sources/*.swift'
+  s.source_files = 'Sources/**/*'
   s.swift_version = '5.1'
   s.platform = :ios, '14.0'
 
-  s.dependency = 'OpenCV', '4.3.0'
-  s.dependency = 'CropViewController'
+  s.dependency 'OpenCV'
+  s.dependency 'CropViewController'
 
 end
