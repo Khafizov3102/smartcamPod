@@ -31,7 +31,7 @@
 		2DDEC28B2BDB9D3100726E25 = {
 			isa = PBXGroup;
 			children = (
-				2DDEC2972BDB9D3100726E25 /* smartcamPod */,
+				2DDEC2972BDB9D3100726E25 /* Sources */,
 				2DDEC2962BDB9D3100726E25 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -44,19 +44,11 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2DDEC2972BDB9D3100726E25 /* smartcamPod */ = {
-			isa = PBXGroup;
-			children = (
-				2DDEC2A12BDBA50C00726E25 /* Sources */,
-				2DDEC2982BDB9D3100726E25 /* smartcamPod.h */,
-			);
-			path = smartcamPod;
-			sourceTree = "<group>";
-		};
-		2DDEC2A12BDBA50C00726E25 /* Sources */ = {
+		2DDEC2972BDB9D3100726E25 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
 				2DDEC29F2BDB9D9A00726E25 /* MyClass.swift */,
+				2DDEC2982BDB9D3100726E25 /* smartcamPod.h */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
